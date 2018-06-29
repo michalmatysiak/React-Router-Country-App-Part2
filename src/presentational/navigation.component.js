@@ -6,10 +6,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Navigation = props => (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
                     data-target="#navbarTogglerDemo01"
@@ -17,31 +17,31 @@ const Navigation = props => (
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon" />
+                    <span className="navbar-toggler-icon" />
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <Link class="navbar-brand" to="/">
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <Link className="navbar-brand" to="/">
                         Państwa.js
                     </Link>
 
                     <ul className="navbar-nav">
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/home">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/home">
                                 Home
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/countries">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/countries">
                                 Countries
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/continents">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/continents">
                                 Continents
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/contact">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact">
                                 Contact
                             </Link>
                         </li>
