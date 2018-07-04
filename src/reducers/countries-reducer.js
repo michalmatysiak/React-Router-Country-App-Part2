@@ -31,9 +31,9 @@ const countriesReducer = function(state = initialState, action) {
 			return Object.assign({}, state, {
 				visibleCountries: foundCountries
 			});
+		default:
+			return state;
 	}
-
-	return state;
 };
 
 export default countriesReducer;
